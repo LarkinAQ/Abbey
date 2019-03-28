@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>css animaton</title>
+  <style media="screen">
+    @keyframes example {
+      0% {
+        background-color: red;
+      }
+
+      25% {
+        background-color: yellow;
+      }
+
+      50% {
+        background-color: blue;
+        border-radius: 50% transform:scale(1.5);
+      }
+
+      100% {
+        background-color: green;
+      }
+    }
+
+    #boxter {
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+      background-color: red;
+      animation-name: Example;
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="boxter"></div>
+  </div>
+</body>
+
+</html>
