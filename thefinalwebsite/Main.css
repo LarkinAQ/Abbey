@@ -72,15 +72,12 @@ a {
                      background: #yellow;}
 
 
-                     d:active {
-                       background: #purple;}
-
                       .d{
                             color:#white;
                             text-decoration:none;
                             display: block;
                             background-color: #lightblue;
-                            width: 170px;
+                            width: 100vw;
                             margin: 20px;
                             padding: 10px;
                             text-align: center;
@@ -88,6 +85,11 @@ a {
                             border: 5px solid #lightgrey;
                             float: left;
                           }
+                          .d::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
                           .d:hover {
                             box-shadow: inset 3px 3px 3px;
