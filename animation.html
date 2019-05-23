@@ -37,6 +37,79 @@
       animation-direction: alternate;
 
     }
+   {
+      background-color: #bdcfed;
+
+    }
+
+    .fred {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: red;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    .george {
+      height: 400px;
+      width: 400px;
+      margin-left: 200px;
+      animation-name: movie;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+      background-position: center top;
+    }
+
+
+
+    @keyframes movie {
+    
+    }
+
+
+    @keyframes example {
+      0% {
+        background-color: #d6b3c1;
+      }
+
+      25% {
+        background-color: #c69bcc;
+        transform: scale(1.5);
+      }
+
+      50% {
+        background-color: #bfddf2;
+      }
+
+      100% {
+        background-color: #baf2bc;
+        border-radius: 50%;
+      }
+    }
+
+    @keyframes less{
+      0% {transform: scale(.5)
+
+      }
+
+      25% {
+        transform: scale(1.5);
+      }
+
+      50% {box-shadow: 5px 30px 40px #c69bcc
+
+      }
+
+      100% {
+
+        border-radius: 50%;
+      }
+      }
+  </style>
+</head>
   </style>
 </head>
 
