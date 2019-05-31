@@ -1,0 +1,100 @@
+body { background: #E2E4F6;
+}
+
+h1 {color:#E76D83;}
+
+ul {list-style-type: none;margin:0;}
+
+a {
+     color: black;
+     text-decoration:none;
+     display: block;
+     background-color: #fadcba;
+     width: 170px;
+     margin: 20px;
+     padding: 10px;
+     text-align: center;
+     border-radius: 20px;
+     border: 5px solid #ffa;
+     float: left;
+   }
+
+   a:hover {
+     box-shadow: inset 3px 3px 3px;
+     color: #666;
+   }
+
+    .b{
+          color:#white;
+          text-decoration:none;
+          display: block;
+          background-color: #lightblue;
+          width: 170px;
+          margin: 20px;
+          padding: 10px;
+          text-align: center;
+          border-radius: 20px;
+          border: 5px solid #lightgrey;
+          float: left;
+        }
+
+        .b:hover {
+          box-shadow: inset 3px 3px 3px;
+          color: #lightgreen;
+        }
+
+        .b:active {
+            background: #yellow}
+
+            c:active {
+              background: #fbe5ff;
+
+             .c{
+                   color:#white;
+                   text-decoration:none;
+                   display: block;
+                   background-color: #lightblue;
+                   width: 170px;
+                   margin: 20px;
+                   padding: 10px;
+                   text-align: center;
+                   border-radius: 20px;
+                   border: 5px solid #lightgrey;
+                   float: left;
+                 }
+
+                 .c:hover {
+                   box-shadow: inset 3px 3px 3px;
+                   color: #lightgreen;
+                 }
+
+                 .c:active {
+                     background: #yellow;}
+
+
+                      .d{
+                            color:#white;
+                            text-decoration:none;
+                            display: block;
+                            background-color: #lightblue;
+                            width: 100vw;
+                            margin: 20px;
+                            padding: 10px;
+                            text-align: center;
+                            border-radius: 20px;
+                            border: 5px solid #lightgrey;
+                            float: left;
+                          }
+                          .d::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+                          .d:hover {
+                            box-shadow: inset 3px 3px 3px;
+                            color: #lightyellow;
+                          }
+
+                          .d:active {
+                            background: #lightgreen;
