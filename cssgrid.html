@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Spit</title>
   <style>
+    @media only screen and (min-width:600px) {
+
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -34,7 +36,55 @@
 
     article {
       background: #8485;
+
+      <style media="screen">body {
+        background-color: #212121;
+      }
+
+      a {
+        color: black;
+      }
+
+      #title {
+        background: #2BAFB5;
+        text-align: center;
+        width: 500px;
+        margin-left: 25px;
+      }
+
+      #image {
+        float: right;
+        margin: 25px
+      }
+
+      nav {
+        background: #343434;
+        width: 175px;
+        text-align: center;
+        float: left;
+        margin: 15px
+      }
+
+      article {
+        background: #2BAFB5;
+        float: left;
+        margin: 15px;
+        padding: 10px;
+      }
+
+      footer {
+        background: #343434;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        height: 145px;
+        width: 500px;
+        text-align: left;
+      }
     }
+  </style>
+  }
+  }
   </style>
 </head>
 
@@ -59,12 +109,12 @@
   <h2>Favrote Candy;</h2>
   <p>I Like Paydays!</p>
 
-<hr>
+  <hr>
   <div class="grid">
     <div id="title" class="span-col-2">HERES A LIST OF MY FAVROTE SONG'S</div>
     <div>Buttercup </div>
     <div>
-  boys will be bugs
+      boys will be bugs
     </div>
     <div class="span-col-2">I wish you were gay</div>
     <div class="span-col-3">im just a loney boy</div>
